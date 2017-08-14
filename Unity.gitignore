@@ -3,6 +3,7 @@
 ###
 [Aa]ssets/AssetStoreTools*
 [Bb]uild/
+[Bb]uilds/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
 [Oo]bj/
@@ -14,17 +15,20 @@ sysinfo.txt
 *.meta
 
 ###
-# VS/MD solution and project files
+# VS/MD/Consulo solution and project files
 ###
-[Ee]xportedObj/
+.consulo/
+[Ee]xported[Oo]bj/
 *.booproj
 *.csproj
 *.sln
 *.suo
 *.svd
+*.tmp
 *.unityproj
 *.user
 *.userprefs
+*.pdb
 *.pidb
 .DS_Store
 
