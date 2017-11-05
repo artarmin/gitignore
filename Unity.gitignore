@@ -11,8 +11,6 @@
 [Uu]nityGenerated/
 # file on crash reports
 sysinfo.txt
-# Unity generated meta files
-*.meta
 
 ###
 # VS/MD/Consulo solution and project files
