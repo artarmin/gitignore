@@ -1,20 +1,24 @@
 ###
 # Unity folders and files
 ###
-[Aa]ssets/AssetStoreTools*
-[Bb]uild/
-[Bb]uilds/
-[Ll]ibrary/
-[Ll]ocal[Cc]ache/
-[Oo]bj/
-[Tt]emp/
-[Uu]nityGenerated/
+/[Aa]ssets/AssetStoreTools*
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ibrary/
+/[Ll]ocal[Cc]ache/
+/[Ll]ogs/
+/[Oo]bj/
+/[Tt]emp/
+/[Uu]nityGenerated/
 # file on crash reports
-sysinfo.txt
+/sysinfo.txt
+# Unity generated meta files
+*.pidb.meta
 
 ###
 # VS/MD/Consulo solution and project files
 ###
+.vs/
 .consulo/
 [Ee]xported[Oo]bj/
 *.booproj
@@ -38,6 +42,8 @@ sysinfo.txt
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
-Thumbs.db
+[Tt]humbs.db
+[Tt]humbs.db.meta
+
+.SourceCache/
